@@ -1,0 +1,23 @@
+{
+  "type": "module",
+  "name": "segunda-entregafinal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node serverSQL.js",
+    "build": "src/batch/ProductosSQL.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "better-sqlite3": "^7.6.2",
+    "express": "^4.18.1",
+    "firebase-admin": "^11.0.1",
+    "knex": "^2.3.0",
+    "mongoose": "^6.6.2",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.20"
+  }
+}
